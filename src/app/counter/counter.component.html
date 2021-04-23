@@ -1,0 +1,12 @@
+<div class="text-center">
+  <h1 class="text-4xl">Counter App</h1>
+  <p class="my-4">You can now use the buttons! :)</p>
+  <div class="mb-4">
+    <input class="border-solid border-2 text-center" type="number" [value]="counter">
+  </div>
+  <div>
+    <button class="mr-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" (click)="increase()">Increase</button>
+    <button class="mr-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" (click)="decrease()">Decrease</button>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" (click)="reset()">Reset</button>
+  </div>
+</div>
